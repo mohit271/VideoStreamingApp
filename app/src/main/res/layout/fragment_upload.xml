@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.UploadFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+  <VideoView
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:layout_gravity="center"
+      android:id="@+id/videoViewUpload"
+      android:backgroundTint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Video Name"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/videoNameUpload"
+        android:backgroundTint="@color/black"
+        />
+
+  <Button
+      android:id="@+id/selectVideoUpload"
+      android:layout_width="match_parent"
+      android:layout_marginStart="30dp"
+      android:layout_marginEnd="30dp"
+      android:layout_marginBottom="20dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:textColor="@color/black"
+      android:background="@drawable/btn_background"
+      android:text="Select Video" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Upload"
+        android:id="@+id/uploadVideoUpload"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        />
+
+  <ProgressBar
+      android:id="@+id/progressBarUpload"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:indeterminate="true"
+      android:visibility="invisible" />
+
+
+</LinearLayout>

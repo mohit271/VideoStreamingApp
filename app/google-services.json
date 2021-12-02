@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390210861878",
+    "project_id": "postvila-80cc3",
+    "storage_bucket": "postvila-80cc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390210861878:android:9b68dc6eb9353f78ecd197",
+        "android_client_info": {
+          "package_name": "com.example.youtubepostvila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390210861878-jjtqncdsts26oekadf51r2ci35cikbke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy1kp5ddZhMaEhfGQskU2GTc8HQbPupt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390210861878-jjtqncdsts26oekadf51r2ci35cikbke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
